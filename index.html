@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Packman</title>
+</head>
+<body>
+      <style>
+    canvas {
+        image-rendering: pixelated;
+        display: block;
+        margin: 0 auto;
+    }
+    body {
+        background: black;
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center; /* centro horizontal */
+        align-items: center;     /* centro vertical */
+    }
+</style>
+
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <div style="display: none">
+        <img id="animation" src="assets/animations (1).gif" alt="">
+        <img id="ghosts" src="assets/ghost (1).png" alt="">
+        
+
+    </div>
+    <script src="ghost.js"></script>
+    <script src="packman.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
